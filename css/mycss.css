@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
-
+*{
+  box-sizing: border-box;
+}
 header{
     background-color: black;
     background-size: cover;
@@ -51,12 +53,8 @@ header{
   height: fit-content;
   
 }
-img{
-  border-style: groove;
-  border-width: 5px;
-  border-color:#42a5f5;
-}
-   
+
+
     h2{
       text-align: left;
       font-size: 5vw;

@@ -1,0 +1,17 @@
+#mypicc{
+    border-style: groove;
+    border-width: 15px;
+    border-radius: 50%;
+    border-color: rgb(20, 53, 163);
+    animation: animates infinite 5s;
+
+  }
+  @keyframes animates{
+    40%{
+      border-color: pink;
+    }
+    80%{
+      border-color: rgb(199, 45, 219);
+    }
+  }
+     
