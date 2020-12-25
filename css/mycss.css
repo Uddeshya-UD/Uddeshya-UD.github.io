@@ -4,7 +4,7 @@ header{
     background-color: black;
     background-size: cover;
     background-position: center;
-    min-height: 800px;
+    min-height: 900px;
 
   }
  
@@ -12,7 +12,7 @@ header{
 
   @media screen and (max-width: 670px){
           header{
-            min-height: 500px;
+            min-height: 650px;
           }
          
         .section{
@@ -73,7 +73,25 @@ img{
     font-size: 50px;
     font-family: 'Dancing Script', cursive;
   }
+  .button{
 
+    width: 200px;
+    height: 30px;
+    padding: 4px;
+    background-color: rgb(204, 146, 173);
+    border-style: groove;
+    border-color: rgb(255, 150, 167);
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    cursor: pointer;
+    
+   
+  }
+  .button:hover {
+    color: black;
+  }
+
+  
   h3 span { 
   
     border-bottom: 2px solid rgb(14, 0, 0); 
@@ -110,3 +128,6 @@ img{
             color: #b539db ;
         }
     }
+
+
+    
